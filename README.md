@@ -1,9 +1,14 @@
 # jetson-faster-whisper
 A Docker image for using faster-whisper on Jetson.
 
+## Install
+```
+$ docker pull ghcr.io/microaijp/jetson-faster-whisper:latest
+```
+
 ## Usage
 ```
-$ docker run --rm -it --runtime=nvidia --name jetson-faster-whisper ghcr.io/microaijp/jetson-faster-whisper:latest
+$ docker run --runtime=nvidia -it ghcr.io/microaijp/jetson-faster-whisper:latest
 ```
 
 ## Testing
